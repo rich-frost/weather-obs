@@ -9,3 +9,10 @@ The idea is to show today's weather observations for a specific location.
 To run this application, you will need to register with the Met Office's DataPoint service to obtain your own API Key.
 
 Once you have this, you can then update the AppConstants file to include your API key and select which location you wish to view data.
+
+## Still TODO
+
+- create SVGs for all wind directions
+- create PNG fallback for SVGs
+- add in the ability to select a location
+- choose to view the forecast for a location
