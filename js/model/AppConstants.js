@@ -6,11 +6,11 @@
 var ApplicationConstants = Backbone.Model.extend({
 
     apiKey: function () {
-        return 'your-api-key';
+        return 'bee2e795-cf8d-4635-8e94-859105168328';
     },
 
     locationId: function () {
-        return 'location-id';
+        return '3808';
     }
 });
 
