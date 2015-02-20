@@ -10,3 +10,35 @@
     display: inline-block;
     height: 100%;
 }
+
+.icon-nnw {
+    transform: rotate(22.5deg);
+}
+
+.icon-wnw {
+    transform: rotate(-22.5deg);
+}
+
+.icon-nne {
+    transform: rotate(22.5deg);
+}
+
+.icon-ene {
+    transform: rotate(67.5deg);
+}
+
+.icon-sse {
+    transform: rotate(22.5deg);
+}
+
+.icon-ese {
+    transform: rotate(-22.5deg);
+}
+
+.icon-ssw {
+    transform: rotate(-22.5deg);
+}
+
+.icon-wsw {
+    transform: rotate(22.5deg);
+}

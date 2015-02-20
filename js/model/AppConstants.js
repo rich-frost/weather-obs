@@ -6,11 +6,35 @@
 var ApplicationConstants = Backbone.Model.extend({
 
     apiKey: function () {
-        return 'bee2e795-cf8d-4635-8e94-859105168328';
+        return '{api-key}';
     },
 
     locationId: function () {
-        return '3808';
+        return '{location-id}';
+    },
+
+    beachDirection: function () {
+        return 'ESE';
+    },
+
+    offShoreWindDirections: function() {
+        return ['E', 'ESE', 'SE'];
+    },
+
+    crossShoreWindDirections: function() {
+        return ['NNE', 'NE', 'ENE', 'SSE', 'S', 'SSW'];
+    },
+
+    offShoreWindColour: function() {
+        return 'success';
+    },
+
+    crossShoreWindColour: function() {
+        return 'warning';
+    },
+
+    onShoreWindColour: function() {
+        return 'danger';
     }
 });
 
