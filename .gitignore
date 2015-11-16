@@ -1,2 +1,3 @@
 .idea/*
 js/model/AppConstants.js
+bower_components/*

@@ -1,0 +1,26 @@
+{
+  "name": "weather-obs",
+  "homepage": "https://github.com/rich-frost/weather-obs",
+  "authors": [
+    "Rich Frost <richard@ipponsolutions.co.uk>"
+  ],
+  "description": "Latest obs for West Cornwall",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "backbone"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "backbone": "~1.2.3"
+  }
+}
